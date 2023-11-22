@@ -4,7 +4,7 @@ var randNum1 = 0,
 
 function fun1() {
   if (turn) {
-    document.querySelectorAll("p")[2].innerHTML = "Player 2's turn!";
+    document.querySelectorAll(".warning-msg")[0].innerHTML = "Player 2's turn!";
   } else {
     randNum1 = Math.floor(Math.random() * 6) + 1;
     var randImage1 = "dice" + randNum1 + ".png";
@@ -18,7 +18,7 @@ function fun1() {
 function fun2() {
   randNum2 = Math.floor(Math.random() * 6) + 1;
   if (turn == 0) {
-    document.querySelectorAll("p")[2].innerHTML = "Player 1's turn!";
+    document.querySelectorAll(".warning-msg")[0].innerHTML = "Player 1's turn!";
   } else {
     var randImage2 = "dice" + randNum2 + ".png";
     randImageSource = "images/" + randImage2;
@@ -30,7 +30,7 @@ function fun2() {
 }
 
 function checkWinner() {
-  var trophy = '<i class="fa-solid fa-trophy fa-beat-fade"></i>';
+  var trophy = '<i class="fa-solid fa-trophy fa-beat-fade red-trophy"></i>';
   if (randNum1 > randNum2) {
     document.querySelectorAll("h1")[0].innerHTML =
       trophy + " Player 1 wins! " + trophy;
@@ -49,4 +49,5 @@ function reset() {
   document.querySelectorAll("img")[0].setAttribute("src", "images/dice1.png");
   document.querySelectorAll("img")[1].setAttribute("src", "images/dice1.png");
   document.querySelectorAll("h1")[0].innerHTML = "Dice Me";
+  document.querySelectorAll(".warning-msg")[0].innerHTML = "";
 }
