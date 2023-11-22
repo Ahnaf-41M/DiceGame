@@ -58,10 +58,10 @@ body {
   color: red;
 }
 
-@media (min-width: 500px) and (max-width: 1200px) {
+@media (max-width: 1200px) {
   .section1 {
     text-align: center;
-    height: 145%;
+    height: 135%;
     width: 100%;
     padding: 1% 7%;
   }
@@ -83,12 +83,8 @@ body {
     margin: 1% 2% 1%;
     font-size: 2rem;
   }
-  /* img {
-    height: 50px;
-    width: 50px;
+  .image-res {
+    width: 30%;
+    height: 10%;
   }
-  
-  
-
-  */
 }
