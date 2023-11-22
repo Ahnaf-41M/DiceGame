@@ -30,7 +30,7 @@ function fun2() {
 }
 
 function checkWinner() {
-  var trophy = '<i class="fa-solid fa-trophy"></i>';
+  var trophy = '<i class="fa-solid fa-trophy fa-beat-fade"></i>';
   if (randNum1 > randNum2) {
     document.querySelectorAll("h1")[0].innerHTML =
       trophy + " Player 1 wins! " + trophy;
