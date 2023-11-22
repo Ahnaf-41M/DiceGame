@@ -1,0 +1,49 @@
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="styles.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+            integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+            integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+            crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+            integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+            crossorigin="anonymous"></script>
+
+        <!-- Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Anton&family=Dancing+Script:wght@700&family=Kalam&family=Lobster&family=Montserrat:wght@400;800&family=Satisfy&display=swap"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/956dca448e.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="section1 back-col">
+            <h1 class="h1-section1">Dice Me</h1>
+            <div class="dice txt-p">
+                <p>Player 1</p>
+                <img src="images/dice1.png" alt="" onclick="fun1()">
+            </div>
+            <div class="dice txt-p">
+                <p>Player 2</p>
+                <img src="images/dice1.png" alt="" onclick="fun2()">
+            </div>
+            <br>
+            <button class="btn-refresh txt-p" onclick="reset()">Refresh</button>
+            <p class="text-danger warning-msg"></p>
+            <footer class="footer-text">© Ahnaf</footer>
+            <script src="index.js"></script>
+
+        </section>
+    </body>
+
+</html>
