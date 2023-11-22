@@ -57,3 +57,38 @@ body {
 .red-trophy {
   color: red;
 }
+
+@media (min-width: 500px) and (max-width: 1200px) {
+  .section1 {
+    text-align: center;
+    height: 145%;
+    width: 100%;
+    padding: 1% 7%;
+  }
+  .h1-section1 {
+    font-size: 2rem;
+  }
+  .txt-p {
+    color: #7ed7c1;
+    font-size: 3rem;
+    font-family: "Dancing Script", cursive;
+  }
+  .btn-refresh {
+    background-color: #f0dbaf;
+    color: #363062;
+    font-family: "Anton", sans-serif;
+    width: 28%;
+    height: 6%;
+    border-radius: 5%;
+    margin: 1% 2% 1%;
+    font-size: 2rem;
+  }
+  /* img {
+    height: 50px;
+    width: 50px;
+  }
+  
+  
+
+  */
+}
