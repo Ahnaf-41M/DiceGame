@@ -15,13 +15,13 @@ body {
   text-align: center;
   height: 100%;
   width: 100%;
-  padding: 2% 7%;
+  padding: 1% 7%;
 }
 
 .h1-section1 {
   color: #7ed7c1;
   font-size: 4rem;
-  padding: 2% 7%;
+  padding: 1% 7%;
   font-family: "Lobster", sans-serif;
   font-size: 6rem;
   font-weight: bolder;
@@ -33,9 +33,8 @@ body {
 }
 
 .warning-msg {
-  margin: 2% 2%;
   font-family: "Kalam", cursive;
-  font-size: 3rem;
+  font-size: 30px;
 }
 
 .btn-refresh {
@@ -45,7 +44,7 @@ body {
   width: 200px;
   height: 80px;
   border-radius: 5%;
-  margin: 1% 2% 0%;
+  margin: 1% 2% 1%;
 }
 .btn-refresh:hover {
   background-color: #d7bd83;
@@ -54,4 +53,7 @@ body {
 .footer-text {
   color: #68c1ab;
   font-family: "Satisfy", cursive;
+}
+.red-trophy {
+  color: red;
 }
