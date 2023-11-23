@@ -12,6 +12,7 @@ function fun1() {
     var image1 = document.querySelectorAll("img")[0];
     image1.setAttribute("src", randImageSource);
     turn = 1;
+    document.querySelectorAll(".warning-msg")[0].innerHTML = "";
   }
 }
 
@@ -25,6 +26,7 @@ function fun2() {
     var image2 = document.querySelectorAll("img")[1];
     image2.setAttribute("src", randImageSource);
     turn = 0;
+    document.querySelectorAll(".warning-msg")[0].innerHTML = "";
     checkWinner();
   }
 }
